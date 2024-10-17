@@ -1,26 +1,7 @@
 #include <iostream>
-#include <limits>
-#include <typeinfo>
 
-#include "functions.hpp"
+int main([[maybe_unused]] int argc, [[maybe_unused]] char** argv){
+    std::cout << "Hello, world!" << std::endl;
 
-void print(int a, int b){
-    std::cout << a << ' ' << b << '\n';
-}
-
-
-void testOutput(int a, int b){
-    std::cout << a << ' ' << b << '\n';
-}
-int test(int& prn){
-    int b{};
-    for(int i = 0; i < 10; i++){
-        b += i;
-        ++prn;
-    }
-    std::cout << b << '\n';
-    return b;
-}
-int main(){
-    int a{}
+    return 0;
 }
