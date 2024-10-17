@@ -16,8 +16,5 @@ struct ColorChoice {
 
     static void ResetColor() { std::cout << "\033[0m"; }
 };
-/*
-ну тут все и так понятно. Кодировку смотреть ECMA-4 или ANSI
-*/
 
 #endif
